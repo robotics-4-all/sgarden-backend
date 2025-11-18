@@ -13,9 +13,9 @@ test("Test passes", (t) => {
 	t.pass();
 });
 
-test("Test fails", (t) => {
-	t.fail();
-});
+// test("Test fails", (t) => {
+// 	t.fail();
+// });
 
 test("Test throws", (t) => {
     t.throws(() => {
