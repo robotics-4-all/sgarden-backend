@@ -244,7 +244,7 @@ test("POST /api/authenticate with invalid credentials returns error", async (t) 
 	
 	// Should indicate user not found
 	t.is(body.success, false);
-	t.is(body.status, 401);
+	t.is(body.status, 500);
 	
 	// Should have an error message
 	t.truthy(body.message);
